@@ -3,7 +3,7 @@
 void main()
 {
 	static int a[3][4] ={{2,4,6,8},{10,12,14,16},{18,20,22,24}};
-	 int (* ptr)[4];
+	int (* ptr)[4];
 	int i,j;
 	ptr=a;
 
